@@ -128,3 +128,10 @@ TPOT:
 #    population_size: 25
 #    verbosity: 2
 
+mljarsupervised:
+  version: '0.6.0'
+  project: https://github.com/mljar/mljar-supervised
+  params:
+    mode: "Compete"   # set mode for Compete, default mode is Explain
+#    algorithms: ["Baseline"]
+#    _save_artifacts: True
