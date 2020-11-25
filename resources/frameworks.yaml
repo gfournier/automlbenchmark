@@ -93,8 +93,8 @@ GAMA:
   project: https://github.com/PGijsbers/gama
 
 H2OAutoML:
-  version: '3.30.0.4'
-  setup_args: 'zahradnik'
+  version: '3.32.0.2'
+  setup_args: 'zermelo'
   project: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
 #  params:
 #    _save_artifacts: ['leaderboard', 'logs', 'models', 'models_predictions', 'mojos']
@@ -128,10 +128,3 @@ TPOT:
 #    population_size: 25
 #    verbosity: 2
 
-mljarsupervised:
-  version: '0.6.0'
-  project: https://github.com/mljar/mljar-supervised
-  params:
-    mode: "Compete"   # set mode for Compete, default mode is Explain
-#    algorithms: ["Baseline"]
-#    _save_artifacts: True
